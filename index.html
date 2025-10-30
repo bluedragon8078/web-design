@@ -1,24 +1,79 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>https://github.com/bluedragon8078/web-design.git</title>
-    <style>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inline Center</title>
+  <title>My Portfolio</title>
+
+  <!-- 🎨 CSS goes here -->
   <style>
-    .center-text {
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #161b22;
       text-align: center;
-      color: #6200ea; /* Purple text */
+      padding: 1rem;
+    }
+
+    header h1 {
+      color: #58a6ff;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .project {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #30363d;
+      margin-top: 2rem;
+      color: #8b949e;
     }
   </style>
-  </head>
-  <body>
-    <h1 class="center-text">Hello, world!</h1>
-    <form>
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" placeholder="Enter your username">
-      <button type="submit">Submit</button>
-    </form>
-  </body>
+</head>
+
+<body>
+  <!-- 🧱 HTML content starts here -->
+  <header>
+    <h1>BlueDragon8078</h1>
+    <p>Web Designer | Learner | Creator</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hi! I'm a beginner web designer learning HTML, CSS, and GitHub Pages. I love creating modern, responsive websites.</p>
+
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A simple responsive portfolio using HTML and CSS hosted on GitHub Pages.</p>
+    </div>
+
+    <div class="project">
+      <h3>Personal Blog</h3>
+      <p>A blog layout design built from scratch using Flexbox and CSS Grid.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 BlueDragon8078 | Built with ❤️ using GitHub Pages</p>
+  </footer>
+</body>
 </html>
